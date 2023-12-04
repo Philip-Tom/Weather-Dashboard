@@ -90,6 +90,9 @@ This Challenge is graded based on the following criteria:
 
 * Repository contains quality readme file with description, screenshot, and link to deployed application.
 
+## Screenshots
+![Screenshot](<Screenshot 2023-12-04 134809.png>)
+
 ## Review
 
 You are required to submit BOTH of the following for review:
