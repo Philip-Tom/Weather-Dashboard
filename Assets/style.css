@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.top {
+  background-color: #3d47a0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+}
+
+
+.search-city {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-city h1 {
+  text-align: left;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.search-city input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+
+.search-city button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #6991e3;
+  color: white;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.search-city button:hover {
+  background-color: #2c3373;
+  cursor: pointer;
+}
+
+.history {
+  margin-top: 20px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.history .city{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #aeaeae;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.weather-details {
+  flex: 4;
+  padding: 10px;
+  margin: 10px;
+}
+
+.weather-details .today {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 2px solid #aeaeae;
+  padding: 5px;
+}
+
+.weather-details .forecast {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-details .forecast h1 {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.weather-details .forecast .days {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.weather-details .forecast .days .day {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  flex: 1;
+  margin-right: 10px;
+  justify-content: center;
+  background-color: #323d4f;
+  color: white;
+
+}
+
+.weather-details .forecast .days .day h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.weather-details .forecast .days .day p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+}

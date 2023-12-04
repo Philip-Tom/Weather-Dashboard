@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="Assets/style.css" />
+  </head>
+  <body>
+    <nav class="top">
+      <h1>Weather Dashboard</h1>
+    </nav>
+
+    <div class="content">
+      <aside class="search-city">
+        <h1>Seach for a City:</h1>
+        <div class="search">
+          <input type="text" placeholder="City Name" id="cityInput"/>
+          <button id="search-btn">Search</button>
+        </div>
+        <hr />
+
+        <div class="history">
+          
+        </div>
+      </aside>
+
+      <main class="weather-details">
+        <div class="today">
+          <h1>
+            <span id="today-city"></span>
+            <span id="today-date"></span>
+            <span id="today-weather-icon" class="icon">
+              
+            </span>
+          </h1>
+          <p>Temp : <span id="today-temperature"></span> <span>°F</span></p>
+          <p>Wind : <span id="today-wind-speed"></span> <span>MPH</span></p>
+          <p>Humidity : <span id="today-humidity"></span> <span>%</span></p>
+        </div>
+
+        <div class="forecast">
+          <h1>5-day Forecast:</h1>
+          <div class="days">
+            
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="Assets/script.js"></script>
+  </body>
+</html>
